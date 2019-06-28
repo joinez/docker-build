@@ -10,4 +10,4 @@ jobs:
           docker_layer_caching: true
       - run: |
           TAG=0.1.$CIRCLE_BUILD_NUM
-          DOCKER_BUILDKIT=1 docker build -t docker-build:$TAG .
+          docker build -t docker-build:$TAG .
