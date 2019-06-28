@@ -5,4 +5,4 @@ jobs:
       - image: circleci/ruby:2.6.3
     steps:
       - checkout
-      - run: cat bar
+      - run: cat Dockerfile
